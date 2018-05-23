@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_phase_gen_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_phase_gen" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2494035000000fs"></ZoomStartTime>
+      <ZoomEndTime time="2538435000001fs"></ZoomEndTime>
+      <Cursor1Time time="2501435000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/test_phase_gen/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/clk_u" type="logic">
+      <obj_property name="ElementShortName">clk_u</obj_property>
+      <obj_property name="ObjectShortName">clk_u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/freq" type="array">
+      <obj_property name="ElementShortName">freq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">freq[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/f_e" type="array">
+      <obj_property name="ElementShortName">f_e[1:0]</obj_property>
+      <obj_property name="ObjectShortName">f_e[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/phase" type="array">
+      <obj_property name="ElementShortName">phase[11:0]</obj_property>
+      <obj_property name="ObjectShortName">phase[11:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">1.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/CLK_UPD" type="logic">
+      <obj_property name="ElementShortName">CLK_UPD</obj_property>
+      <obj_property name="ObjectShortName">CLK_UPD</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/FREQ" type="array">
+      <obj_property name="ElementShortName">FREQ[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FREQ[7:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">2</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/FREQ_EXP" type="array">
+      <obj_property name="ElementShortName">FREQ_EXP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FREQ_EXP[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/SIGN" type="logic">
+      <obj_property name="ElementShortName">SIGN</obj_property>
+      <obj_property name="ObjectShortName">SIGN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/PHASE" type="array">
+      <obj_property name="ElementShortName">PHASE[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/TEN_EXP" type="array">
+      <obj_property name="ElementShortName">TEN_EXP[9:0]</obj_property>
+      <obj_property name="ObjectShortName">TEN_EXP[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/FREQ_M4_BUF" type="array">
+      <obj_property name="ElementShortName">FREQ_M4_BUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FREQ_M4_BUF[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/N_DIVIDEND" type="array">
+      <obj_property name="ElementShortName">N_DIVIDEND[21:0]</obj_property>
+      <obj_property name="ObjectShortName">N_DIVIDEND[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/N_DIVIDEND_BUF" type="array">
+      <obj_property name="ElementShortName">N_DIVIDEND_BUF[21:0]</obj_property>
+      <obj_property name="ObjectShortName">N_DIVIDEND_BUF[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/CNT" type="array">
+      <obj_property name="ElementShortName">CNT[21:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/CNT_TOTAL_RAW" type="array">
+      <obj_property name="ElementShortName">CNT_TOTAL_RAW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_TOTAL_RAW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/CNT_TOTAL" type="array">
+      <obj_property name="ElementShortName">CNT_TOTAL[21:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_TOTAL[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_phase_gen/dut/PHASE_RAW" type="array">
+      <obj_property name="ElementShortName">PHASE_RAW[39:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE_RAW[39:0]</obj_property>
+   </wvobject>
+</wave_config>

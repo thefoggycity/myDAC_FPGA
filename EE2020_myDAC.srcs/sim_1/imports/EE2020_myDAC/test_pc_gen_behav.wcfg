@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_pc_gen_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_pc_gen" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="74280000001fs"></ZoomEndTime>
+      <Cursor1Time time="19844750000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/test_pc_gen/dut/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/CLK_UPD" type="logic">
+      <obj_property name="ElementShortName">CLK_UPD</obj_property>
+      <obj_property name="ObjectShortName">CLK_UPD</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/RS_RX" type="logic">
+      <obj_property name="ElementShortName">RS_RX</obj_property>
+      <obj_property name="ObjectShortName">RS_RX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/PCON" type="logic">
+      <obj_property name="ElementShortName">PCON</obj_property>
+      <obj_property name="ObjectShortName">PCON</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/WAVE" type="array">
+      <obj_property name="ElementShortName">WAVE[11:0]</obj_property>
+      <obj_property name="ObjectShortName">WAVE[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/RUN" type="logic">
+      <obj_property name="ElementShortName">RUN</obj_property>
+      <obj_property name="ObjectShortName">RUN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/BAUDCLK" type="logic">
+      <obj_property name="ElementShortName">BAUDCLK</obj_property>
+      <obj_property name="ObjectShortName">BAUDCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/BAUDCLK_L" type="logic">
+      <obj_property name="ElementShortName">BAUDCLK_L</obj_property>
+      <obj_property name="ObjectShortName">BAUDCLK_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/CNT" type="array">
+      <obj_property name="ElementShortName">CNT[8:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT[8:0]</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/PC_CNT" type="array">
+      <obj_property name="ElementShortName">PC_CNT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_CNT[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/ISPC" type="logic">
+      <obj_property name="ElementShortName">ISPC</obj_property>
+      <obj_property name="ObjectShortName">ISPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/PULSES" type="array">
+      <obj_property name="ElementShortName">PULSES[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PULSES[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dut/DATA" type="array">
+      <obj_property name="ElementShortName">DATA[9:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/bit_index" type="array">
+      <obj_property name="ElementShortName">bit_index[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_index[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/byte_trans" type="array">
+      <obj_property name="ElementShortName">byte_trans[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_trans[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pc_gen/dataframe" type="array">
+      <obj_property name="ElementShortName">dataframe[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dataframe[9:0]</obj_property>
+   </wvobject>
+</wave_config>

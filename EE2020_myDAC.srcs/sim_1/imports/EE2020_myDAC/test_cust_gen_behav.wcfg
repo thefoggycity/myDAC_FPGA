@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_cust_gen_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_cust_gen" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2266666666fs"></ZoomStartTime>
+      <ZoomEndTime time="20066666667fs"></ZoomEndTime>
+      <Cursor1Time time="14266667000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="68"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/test_cust_gen/dut/CLK_UPD" type="logic">
+      <obj_property name="ElementShortName">CLK_UPD</obj_property>
+      <obj_property name="ObjectShortName">CLK_UPD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/SIGN" type="logic">
+      <obj_property name="ElementShortName">SIGN</obj_property>
+      <obj_property name="ObjectShortName">SIGN</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/PHASE" type="array">
+      <obj_property name="ElementShortName">PHASE[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/CONT" type="logic">
+      <obj_property name="ElementShortName">CONT</obj_property>
+      <obj_property name="ObjectShortName">CONT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/SW" type="array">
+      <obj_property name="ElementShortName">SW[9:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/WAVE" type="array">
+      <obj_property name="ElementShortName">WAVE[11:0]</obj_property>
+      <obj_property name="ObjectShortName">WAVE[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/PHASE_D2" type="array">
+      <obj_property name="ElementShortName">PHASE_D2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE_D2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/T" type="array">
+      <obj_property name="ElementShortName">T[11:0]</obj_property>
+      <obj_property name="ObjectShortName">T[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/WAVE_VAL" type="array">
+      <obj_property name="ElementShortName">WAVE_VAL[11:0]</obj_property>
+      <obj_property name="ObjectShortName">WAVE_VAL[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/CNT_BURST" type="array">
+      <obj_property name="ElementShortName">CNT_BURST[19:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_BURST[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/CNT_RUN" type="logic">
+      <obj_property name="ElementShortName">CNT_RUN</obj_property>
+      <obj_property name="ObjectShortName">CNT_RUN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/CONT_LAST" type="logic">
+      <obj_property name="ElementShortName">CONT_LAST</obj_property>
+      <obj_property name="ObjectShortName">CONT_LAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/SIGN_LAST" type="logic">
+      <obj_property name="ElementShortName">SIGN_LAST</obj_property>
+      <obj_property name="ObjectShortName">SIGN_LAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/BURST" type="logic">
+      <obj_property name="ElementShortName">BURST</obj_property>
+      <obj_property name="ObjectShortName">BURST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cust_gen/dut/BURSTED" type="logic">
+      <obj_property name="ElementShortName">BURSTED</obj_property>
+      <obj_property name="ObjectShortName">BURSTED</obj_property>
+   </wvobject>
+</wave_config>
